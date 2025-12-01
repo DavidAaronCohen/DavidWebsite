@@ -1,0 +1,183 @@
+body {
+    width: 1700px;
+    margin: 0 auto;
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo-holder{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.Seventh{
+background-color: #172139;
+color: black black;
+padding: 18px 25px;
+font-size: 21px;
+font-family: Georgia;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.4s ease;
+text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+.Seventh:hover{
+    background-color: #4c1111;
+    box-shadow: 0 0 12.5px 4px rgba(0, 0, 0, 0.7);
+    transform: scale(1.04);
+}
+
+.Eighth{
+background-color: #4c1111;
+color: black black;
+padding: 18px 25px;
+font-size: 21px;
+font-family: Georgia;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+transition: all 0.4s ease;
+text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.Eighth:hover{
+    background-color: #172139;
+    box-shadow: 0 0 12.5px 4px rgba(0, 0, 0, 0.7);
+    transform: scale(1.04);
+}
+
+.logo{
+width: 775px;
+height: 775px;
+}
+.icon{
+    text-align:center;
+}
+.top, .bottom, .Extra{
+    display:block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 15px;
+    width: 150px;
+    padding: 18px 25px;
+    font-family: Georgia;
+    font-size: 21px;
+    color: black black;
+    border: none;
+    border-radius: 4px;
+    background:linear-gradient(to right, #172139 50%, #4c1111 50%);
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+      cursor: pointer;
+      transition: all 0.4s ease;
+}
+
+.top:hover, .bottom:hover, .Extra:hover{
+    background:linear-gradient(to left, #172139 50%, #4c1111 50%);
+    box-shadow: 0 0 12.5px 4px rgba(0, 0, 0, 0.7)
+}
+
+.home-tittle{
+    position: absolute;
+    top: auto;
+    left: auto;
+    color: black;
+    font-size: 65px;
+    font-family: Georgia;
+    margin: 0;
+}
+
+.eight-to-home{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.eight-to-home:hover{
+    transform: scale(1.24);
+    transition: all 0.5s ease;
+}
+
+.seven-to-home{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.seven-to-home:hover{
+    transform: scale(1.24);
+    transition: all 0.5s ease;
+}
+
+.six-to-home{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.six-to-home:hover{
+    transform: scale(1.24);
+    transition: all 0.5s ease;
+}
+
+.extra-to-home{
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+.extra-to-home:hover{
+    transform: scale(1.24);
+    transition: all 0.5s ease;
+}
+
+.header{
+    display: flex;
+    align-items: center;
+    gap: 17px;
+    margin: 21px;
+}
+
+.page-titler{
+    color: white;
+    font-family: Georgia;
+    font-size: 45px;
+    margin: 0;
+    text-shadow:
+    -1px -1px 0 black,
+    1px -1px 0 black,
+    -1px 1px 0 black,
+    1px 1px 0 black;
+}
+
+.page-titler67{
+    color: black;
+    font-family: Georgia;
+    font-size: 45px;
+    margin: 0;
+    text-shadow:
+    -1px -1px 0 white,
+    1px -1px 0 white,
+    -1px 1px 0 white,
+    1px 1px 0 white;
+}
